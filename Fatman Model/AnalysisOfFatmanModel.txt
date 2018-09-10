@@ -1,0 +1,17 @@
+Fatman Model : 
+1. A model to depict the effect of homophily, social influence, closure property in a network of 100 people with different BMI(body mass index).
+2. We used 5 foci namely Gym, eatout, movie, karate, yoga and randomly connected each person to any one of focii initially.
+3. Next we introduced homophily, social influence, closure property in network.
+ Homophily : Homophily refers to the tendency for people to have (non-negative) ties with people who are similar 
+               to themselves in socially significant ways (here BMI).
+ Closure : 
+            foci closure : people with similar interest tend to become friend with each other.
+            triadic closure : people having common friend tend to become friend with each other.
+            membership closure : people of same community (club, gym etc) to become friend with each other.
+ Social Influence : Social influence is the change in behavior that one person causes in another, intentionally 
+                      or unintentionally, as a result of the way the changed person perceives themselves in relationship 
+                      to the influencer, other people and society in general.
+
+4. We observed that Number of obese people increase around the eatout point and movie because of the above 
+   properties majorly Social Influence since Homophily and closure are resposible for defining people we hang out with but Social
+   Influence is the change in behaviour because of it.
