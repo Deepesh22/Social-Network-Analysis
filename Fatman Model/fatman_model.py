@@ -132,11 +132,11 @@ def show(G,t):
 	pos=nx.spring_layout(G)
 	nx.draw(G,pos,labels=labeldict,node_size=nodesize,node_color=color)
 	plt.show()
-	plt.savefig("evolution"+str(t)+".jpg")
+	#plt.savefig("evolution"+str(t)+".jpg")
 	#plt.savefig(pp, format='pdf')
 	#plt.clf()
 	#plt.cla()
-	nx.write_gml(G,"evolution"+str(t)+".gml")
+	#nx.write_gml(G,"evolution"+str(t)+".gml")
 
 
 
